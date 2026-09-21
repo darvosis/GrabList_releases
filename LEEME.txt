@@ -1,76 +1,76 @@
 ===========================================================================
                                   GRABLIST
-             Guia de instalacion y uso (sin cosas tecnicas)
+             Guía de instalación y uso (sin cosas técnicas)
 ===========================================================================
 
-Que es esto?
+Qué es esto?
 ------------
 GrabList te ayuda a bajar los temas de una playlist desde Soulseek
-(una red gigante donde la gente comparte musica) usando el programa
+(una red gigante donde la gente comparte música) usando el programa
 Nicotine+.
 
 Le pasas una playlist (un archivo o una captura de pantalla), el programa
-busca cada tema y te muestra las opciones que encontro. TU eliges cual
-bajar. Nunca descarga nada solo, sin que tu lo apruebes.
+busca cada tema y te muestra las opciones que encontró. TÚ eliges cuál
+bajar. Nunca descarga nada solo, sin que tú lo apruebes.
 
-Todo se maneja desde una pagina en tu navegador (Chrome, Safari, Edge...),
-pero esa pagina funciona en tu propio computador: no es un sitio de
-internet y nadie mas la ve.
+Todo se maneja desde una página en tu navegador (Chrome, Safari, Edge...),
+pero esa página funciona en tu propio computador: no es un sitio de
+internet y nadie más la ve.
 
   +---------------------------------------------------------------------+
   |  IMPORTANTE: Nicotine+ tiene que estar ABIERTO todo el tiempo       |
   |  mientras usas GrabList.                                    |
   |                                                                     |
-  |  La pagina funciona "adentro" de Nicotine+: si lo cierras, la       |
-  |  pagina deja de cargar, no se puede buscar y las descargas se       |
+  |  La página funciona "adentro" de Nicotine+: si lo cierras, la       |
+  |  página deja de cargar, no se puede buscar y las descargas se       |
   |  cortan. Puedes minimizarlo y dejarlo en segundo plano, pero no     |
   |  lo cierres. (Si lo cierras sin querer, tus playlists no se pierden:|
-  |  abrelo de nuevo y recarga la pagina.)                              |
+  |  ábrelo de nuevo y recarga la página.)                              |
   +---------------------------------------------------------------------+
 
 
-INDICE
+ÍNDICE
 ------
-  PARTE 1 - INSTALACION
+  PARTE 1 - INSTALACIÓN
     1. Lo que necesitas
     2. Instalar en Windows
     3. Instalar en Mac
     4. Primera vez en Nicotine+
     5. Activar GrabList
 
-  PARTE 2 - COMO SE USA
-    6. Abrir la pagina
+  PARTE 2 - CÓMO SE USA
+    6. Abrir la página
     7. Crear una playlist desde un archivo
     8. Crear una playlist desde una captura de pantalla (OCR)
     9. Buscar los temas
    10. Elegir y bajar cada tema
    11. Si un tema no aparece
    12. Ordenar tus playlists (renombrar, borrar)
-   13. Donde quedan las cosas
+   13. Dónde quedan las cosas
 
   PARTE 3 - AYUDA
-   14. Problemas comunes y como arreglarlos
-   15. Actualizar a una version nueva
+   14. Problemas comunes y cómo arreglarlos
+   15. Actualizar a una versión nueva
    16. Desinstalar
    17. Buena onda en Soulseek (importante)
 
 
 ===========================================================================
-PARTE 1 - INSTALACION
+PARTE 1 - INSTALACIÓN
 ===========================================================================
 
 1. LO QUE NECESITAS
 -------------------
   - Un computador con Windows 10/11 o Mac.
   - Internet.
-  - La carpeta de GrabList (te la pasa quien te recomendo esto,
+  - La carpeta de GrabList (te la pasa quien te recomendó esto,
     normalmente como un archivo .zip).
   - Unos 15 minutos la primera vez.
 
 No necesitas saber programar ni usar la "terminal". Todo es con doble
-click.
+clic.
 
-Durante la instalacion se van a instalar (si no los tienes):
+Durante la instalación se van a instalar (si no los tienes):
   - Python: un programa que GrabList necesita para funcionar.
     No lo vas a usar directamente, solo tiene que estar instalado.
   - Nicotine+: el programa para conectarte a Soulseek.
@@ -79,125 +79,125 @@ Durante la instalacion se van a instalar (si no los tienes):
 2. INSTALAR EN WINDOWS
 ----------------------
 Paso 1: Descomprimir
-  Haz click derecho sobre el .zip -> "Extraer todo..." -> "Extraer".
-  Te queda una carpeta normal. Dejala en un lugar donde no la vayas a
+  Haz clic derecho sobre el .zip -> "Extraer todo..." -> "Extraer".
+  Te queda una carpeta normal. Déjala en un lugar donde no la vayas a
   borrar sin querer (por ejemplo, en Documentos).
 
-  IMPORTANTE: no hagas doble click adentro del .zip sin extraerlo antes.
-  Tiene que ser la carpeta ya extraida.
+  IMPORTANTE: no hagas doble clic adentro del .zip sin extraerlo antes.
+  Tiene que ser la carpeta ya extraída.
 
-Paso 2: Doble click en "Instalar.bat"
-  Esta dentro de la carpeta. Se abre una ventana negra con texto: es
+Paso 2: Doble clic en "Instalar.bat"
+  Está dentro de la carpeta. Se abre una ventana negra con texto: es
   normal, es el instalador.
 
-  Si aparece un aviso azul que dice "Windows protegio su PC":
-    -> Click en "Mas informacion"
-    -> Click en "Ejecutar de todas formas"
+  Si aparece un aviso azul que dice "Windows protegió su PC":
+    -> Clic en "Más información"
+    -> Clic en "Ejecutar de todas formas"
   (Windows avisa eso con cualquier archivo bajado de internet.)
 
-Paso 3: Si te dice "No encontre Python instalado en tu compu"
-  Se abre sola la pagina de Python en tu navegador.
-    a) Click en el boton amarillo "Download Python 3..."
-    b) Abre el archivo que se bajo.
+Paso 3: Si te dice "No encontre Python instalado en tu computador"
+  Se abre sola la página de Python en tu navegador.
+    a) Clic en el botón amarillo "Download Python 3..."
+    b) Abre el archivo que se bajó.
     c) MUY IMPORTANTE: en la primera pantalla, abajo, marca la casilla
        "Add python.exe to PATH".
-    d) Click en "Install Now" y espera a que termine.
-    e) Cierra la ventana negra y vuelve a hacer doble click en
+    d) Clic en "Install Now" y espera a que termine.
+    e) Cierra la ventana negra y vuelve a hacer doble clic en
        "Instalar.bat".
 
 Paso 4: Si no tienes Nicotine+
   El instalador lo baja solo y abre su instalador. Dale "Siguiente" a
   todo como cualquier programa. Cuando termine, vuelve a la ventana
-  negra y aprieta Enter.
+  negra y presiona Enter.
 
 Paso 5: Listo
-  Cuando la ventana dice "Listo. Para terminar:", ya esta instalado.
-  Aprieta cualquier tecla para cerrarla y sigue con la seccion 4.
+  Cuando la ventana dice "Listo. Para terminar:", ya está instalado.
+  Presiona cualquier tecla para cerrarla y sigue con la sección 4.
 
 
 3. INSTALAR EN MAC
 ------------------
 Paso 1: Descomprimir
-  Doble click en el .zip. Te queda una carpeta al lado. Muevela a un
+  Doble clic en el .zip. Te queda una carpeta al lado. Muévela a un
   lugar donde no la vayas a borrar (por ejemplo, Documentos).
 
 Paso 2: Abrir "Instalar.command"
-  La primera vez, NO hagas doble click. Haz esto:
-    -> Click derecho (o Control + click) sobre "Instalar.command"
+  La primera vez, NO hagas doble clic. Haz esto:
+    -> Clic derecho (o Control + clic) sobre "Instalar.command"
     -> "Abrir"
-    -> En el aviso, click otra vez en "Abrir"
+    -> En el aviso, clic otra vez en "Abrir"
   (El Mac bloquea archivos bajados de internet si los abres con doble
-  click la primera vez.)
+  clic la primera vez.)
 
-  Si "Abrir" -> "Abrir" tampoco funciona y dice que el archivo "esta
-  danado" (esto pasa mas seguido si te lo mandaron por WhatsApp): no esta
-  roto, es el mismo bloqueo pero mas estricto. Se arregla asi:
+  Si "Abrir" -> "Abrir" tampoco funciona y dice que el archivo "está
+  dañado" (esto pasa más seguido si te lo mandaron por WhatsApp): no está
+  roto, es el mismo bloqueo pero más estricto. Se arregla así:
     1. Abre Terminal (Cmd + Espacio, escribe "Terminal", Enter).
-    2. Escribe esto, con un espacio al final, sin apretar Enter todavia:
+    2. Escribe esto, con un espacio al final, sin presionar Enter todavía:
 
            xattr -cr
 
     3. Arrastra la carpeta descomprimida (la que tiene adentro
        "Instalar.command") desde el Finder hasta la ventana de Terminal:
        se completa sola la ruta.
-    4. Recien ahi aprieta Enter, y volve a intentar "Abrir" -> "Abrir".
+    4. Recién ahí presiona Enter, y vuelve a intentar "Abrir" -> "Abrir".
 
   Se abre una ventana de Terminal con texto: es normal, es el
   instalador.
 
-Paso 3: Si te dice "No encontre Python 3 instalado en tu Mac"
-  Se abre la pagina de Python. Baja la version para macOS (boton
-  amarillo), instalala como cualquier programa, y vuelve a abrir
+Paso 3: Si te dice "No encontré Python 3 instalado en tu Mac"
+  Se abre la página de Python. Baja la versión para macOS (botón
+  amarillo), instálala como cualquier programa, y vuelve a abrir
   "Instalar.command".
 
 Paso 4: Si no tienes Nicotine+
   El instalador lo baja y lo abre. Arrastra Nicotine+ a la carpeta
-  Aplicaciones como cualquier app. Vuelve a la Terminal y aprieta Enter.
+  Aplicaciones como cualquier app. Vuelve a la Terminal y presiona Enter.
 
   Si el Mac dice que no puede abrir Nicotine+ porque "no se puede
-  verificar el desarrollador": ve a Aplicaciones, click derecho en
+  verificar el desarrollador": ve a Aplicaciones, clic derecho en
   Nicotine+ -> "Abrir" -> "Abrir".
 
 Paso 5: Listo
-  Cuando dice "Listo. Para terminar:", aprieta Enter para cerrar y
-  sigue con la seccion 4.
+  Cuando dice "Listo. Para terminar:", presiona Enter para cerrar y
+  sigue con la sección 4.
 
 
 4. PRIMERA VEZ EN NICOTINE+
 ---------------------------
-(Si ya usabas Nicotine+, salta a la seccion 5.)
+(Si ya usabas Nicotine+, salta a la sección 5.)
 
 Abre Nicotine+. La primera vez te hace unas preguntas:
 
-  Usuario y contrasena:
+  Usuario y contraseña:
     Si no tienes cuenta de Soulseek, INVENTA un nombre de usuario y una
-    contrasena. La cuenta se crea sola la primera vez que te conectas.
-    Anotalos en algun lado: si los pierdes, no hay forma de recuperarlos.
+    contraseña. La cuenta se crea sola la primera vez que te conectas.
+    Anótalos en algún lado: si los pierdes, no hay forma de recuperarlos.
     Si te dice que el usuario ya existe, prueba con otro nombre.
 
   Carpeta de descargas:
     Es donde van a quedar los temas que bajes. Te recomendamos elegir
-    una facil de encontrar, por ejemplo:
-      Windows: Musica\DJAssist Grabber\Descargas
-      Mac:     Musica/DJAssist Grabber/Descargas
-    (Si no la eliges, Nicotine+ usa una carpeta escondida y despues te
-    va a costar encontrar tus temas. Ver seccion 13 para cambiarla.)
+    una fácil de encontrar, por ejemplo:
+      Windows: Música\DJAssist Grabber\Descargas
+      Mac:     Música/DJAssist Grabber/Descargas
+    (Si no la eliges, Nicotine+ usa una carpeta escondida y después te
+    va a costar encontrar tus temas. Ver sección 13 para cambiarla.)
 
   Carpetas compartidas:
-    Elige al menos una carpeta con musica para compartir. Lee la seccion
-    17 para entender por que es importante.
+    Elige al menos una carpeta con música para compartir. Lee la sección
+    17 para entender por qué es importante.
 
-Cuando termines, arriba deberia decir que estas conectado.
+Cuando termines, arriba debería decir que estás conectado.
 
 
 5. ACTIVAR GRABLIST
 -------------------
 Esto se hace UNA sola vez.
 
-  1. En Nicotine+, abre el menu (el boton con tres rayitas, arriba a la
-     derecha) -> "Preferencias" (o "Preferences" si esta en ingles).
+  1. En Nicotine+, abre el menú (el botón con tres rayitas, arriba a la
+     derecha) -> "Preferencias" (o "Preferences" si está en inglés).
   2. En la lista de la izquierda, entra a "Plugins".
-  3. Asegurate de que "Activar plugins" ("Enable plugins") este prendido.
+  3. Asegúrate de que "Activar plugins" ("Enable plugins") esté prendido.
   4. Busca "GrabList" en la lista y marca su casilla.
   5. Cierra las preferencias.
 
@@ -206,10 +206,10 @@ enciende solo.
 
 
 ===========================================================================
-PARTE 2 - COMO SE USA
+PARTE 2 - CÓMO SE USA
 ===========================================================================
 
-6. ABRIR LA PAGINA
+6. ABRIR LA PÁGINA
 ------------------
   1. Abre Nicotine+ y espera a que se conecte.
   2. Abre tu navegador y escribe esto en la barra de direcciones:
@@ -218,39 +218,39 @@ PARTE 2 - COMO SE USA
 
   3. Te recomendamos guardarla en favoritos.
 
-El boton atras del navegador te lleva a la pantalla anterior, y si
-recargas la pagina te quedas donde estabas. Tambien puedes guardar en
+El botón atrás del navegador te lleva a la pantalla anterior, y si
+recargas la página te quedas donde estabas. También puedes guardar en
 favoritos una playlist en particular: ese link la abre directo.
 
-Si se te olvida la direccion: en cualquier chat de Nicotine+ escribe
+Si se te olvida la dirección: en cualquier chat de Nicotine+ escribe
 /dj y te la muestra.
 
-OJO: la pagina solo funciona mientras Nicotine+ esta abierto. Si cierras
-Nicotine+, la pagina deja de cargar (no se pierde nada, solo vuelve a
+OJO: la página solo funciona mientras Nicotine+ está abierto. Si cierras
+Nicotine+, la página deja de cargar (no se pierde nada, solo vuelve a
 abrirlo).
 
-Como esta armada la pagina:
+Cómo está armada la página:
   - A la izquierda, "Mis playlists": todas tus playlists cargadas, siempre
-    a mano. Click en una para abrirla. El numero al lado (ej. 2/8) dice
-    cuantos temas ya tienes de esa playlist, y el puntito de color avisa
-    si hay temas para revisar (amarillo), si esta buscando (celeste) o si
-    ya esta completa (verde).
+    a mano. Clic en una para abrirla. El número al lado (ej. 2/8) dice
+    cuántos temas ya tienes de esa playlist, y el puntito de color avisa
+    si hay temas para revisar (amarillo), si está buscando (celeste) o si
+    ya está completa (verde).
   - Arriba de esa lista, "+ Nueva playlist": para cargar una nueva.
-  - Junto al nombre "GrabList", un boton con un "?": abre esta
-    misma guia adentro de la pagina, organizada por temas, para no tener
+  - Junto al nombre "GrabList", un botón con un "?": abre esta
+    misma guía adentro de la página, organizada por temas, para no tener
     que andar buscando este archivo.
-  - A la derecha, la playlist que abriste. Junto al titulo esta cuantas
-    busquedas de Soulseek corren a la vez ("Busquedas en paralelo").
-  - Abajo, una barra con un punto que avisa si Soulseek esta conectado
-    (verde) o no (rojo: sin sesion las busquedas no van a encontrar nada),
+  - A la derecha, la playlist que abriste. Junto al título está cuántas
+    búsquedas de Soulseek corren a la vez ("Búsquedas en paralelo").
+  - Abajo, una barra con un punto que avisa si Soulseek está conectado
+    (verde) o no (rojo: sin sesión las búsquedas no van a encontrar nada),
     la carpeta donde se guardan las descargas de esa playlist y la
-    version del programa.
+    versión del programa.
 
 
 7. CREAR UNA PLAYLIST DESDE UN ARCHIVO
 --------------------------------------
-  1. Click en "+ Nueva playlist".
-  2. Arrastra tu archivo al recuadro punteado (o usa el boton para
+  1. Clic en "+ Nueva playlist".
+  2. Arrastra tu archivo al recuadro punteado (o usa el botón para
      elegirlo).
 
      Sirven estos tipos de archivo:
@@ -258,19 +258,19 @@ Como esta armada la pagina:
        - .rtf  (documento de TextEdit, WordPad o Word)
        - .csv  (exportada desde Rekordbox, Excel, etc.)
        - .m3u / .m3u8  (playlists de reproductores)
-       - .xml  (la coleccion exportada de Rekordbox)
-       - Una imagen (captura de pantalla) -> ver seccion 8
+       - .xml  (la colección exportada de Rekordbox)
+       - Una imagen (captura de pantalla) -> ver sección 8
 
      Si subes un .xml de Rekordbox con varias playlists, te pregunta
-     cual quieres usar. Elige una y click en "Usar esta".
+     cuál quieres usar. Elige una y clic en "Usar esta".
 
      Si ya tienes la lista copiada (de un chat, un mail, etc.) no hace
-     falta guardarla como archivo primero: click en "Pegala directo, sin
+     falta guardarla como archivo primero: clic en "Pégala directo, sin
      subir archivo" (debajo del recuadro punteado) y pega el texto
      directo en el paso 3.
 
-  3. Aparece un cuadro con el texto de la playlist, un tema por linea.
-     REVISALO antes de seguir. Cada linea tiene que quedar asi:
+  3. Aparece un cuadro con el texto de la playlist, un tema por línea.
+     REVÍSALO antes de seguir. Cada línea tiene que quedar así:
 
          Artista - Nombre del tema
 
@@ -279,19 +279,19 @@ Como esta armada la pagina:
          Laurence Guy - U GO
 
      Puedes escribir, borrar o corregir lo que quieras. Algunos trucos:
-       - Si una linea empieza con #, se ignora (sirve para notas).
-       - Los numeros al principio ("01. ", "12) ") se sacan solos.
-       - "Artista - Tema - Sello" tambien sirve: el sello se ignora.
-       - Mientras mejor escritos esten artista y tema, mejores
+       - Si una línea empieza con #, se ignora (sirve para notas).
+       - Los números al principio ("01. ", "12) ") se sacan solos.
+       - "Artista - Tema - Sello" también sirve: el sello se ignora.
+       - Mientras mejor escritos estén artista y tema, mejores
          resultados vas a tener.
 
-     Abajo te dice cuantas lineas (temas) hay.
+     Abajo te dice cuántas líneas (temas) hay.
 
-  4. Arriba del cuadro esta "Nombre de la playlist". Ponle un nombre que
-     entiendas despues (ej. "Set sabado", "Favoritos marzo"). Si no lo
+  4. Arriba del cuadro está "Nombre de la playlist". Ponle un nombre que
+     entiendas después (ej. "Set sábado", "Favoritos marzo"). Si no lo
      cambias, usa el nombre del archivo.
 
-  5. Click en "Crear playlist". Te lleva directo a la playlist.
+  5. Clic en "Crear playlist". Te lleva directo a la playlist.
 
 
 8. CREAR UNA PLAYLIST DESDE UNA CAPTURA DE PANTALLA (OCR)
@@ -302,27 +302,27 @@ imagen. A eso se le llama OCR.
 
 La primera vez:
   Al subir una imagen, te va a aparecer un aviso diciendo que hay que
-  instalar el lector de imagenes. Click en "Instalar OCR".
-    - Es una descarga grande (1 a 2 GB). Usa buena conexion.
-    - Puede tardar varios minutos. La pagina te va mostrando el avance.
+  instalar el lector de imágenes. Clic en "Instalar OCR".
+    - Es una descarga grande (1 a 2 GB). Usa buena conexión.
+    - Puede tardar varios minutos. La página te va mostrando el avance.
     - No cierres Nicotine+ mientras se instala.
     - Se instala UNA sola vez. Cuando termina, sigue sola con tu imagen.
 
-Despues:
-  1. Sube la imagen igual que un archivo (seccion 7).
+Después:
+  1. Sube la imagen igual que un archivo (sección 7).
   2. Espera unos segundos (entre 5 y 15) mientras lee la imagen.
-  3. Revisa MUY bien el texto: el OCR se equivoca seguido. Fijate en:
+  3. Revisa MUY bien el texto: el OCR se equivoca seguido. Fíjate en:
        - Letras cambiadas (una "l" por una "I", un "0" por una "O").
-       - Acentos o simbolos raros (el lector funciona mejor en ingles).
-       - Lineas con " / " en el medio: significa que no supo separar
-         artista y tema. Arreglalas a mano como "Artista - Tema".
-       - Lineas que no son temas (botones, titulos): borralas.
+       - Acentos o símbolos raros (el lector funciona mejor en inglés).
+       - Líneas con " / " en el medio: significa que no supo separar
+         artista y tema. Arréglalas a mano como "Artista - Tema".
+       - Líneas que no son temas (botones, títulos): bórralas.
   4. Ponle un buen nombre a la playlist (si no, queda algo como
-     "Screenshot 2026-09-10 at 7.13.32 PM") y click en "Crear playlist".
+     "Screenshot 2026-09-10 at 7.13.32 PM") y clic en "Crear playlist".
 
 Consejos para que lea mejor:
   - Captura solo la lista, sin tanto alrededor.
-  - Que se vea nitida y grande (haz zoom antes de capturar).
+  - Que se vea nítida y grande (haz zoom antes de capturar).
 
 Si la playlist es larga y necesitas varias capturas (por ejemplo, una
 lista tan larga que no entra en una sola captura de Instagram):
@@ -338,189 +338,189 @@ lista tan larga que no entra en una sola captura de Instagram):
 Dentro de una playlist ves una tabla con todos los temas y su estado.
 
 Antes de buscar: marca los temas que ya tienes (si usas Rekordbox)
-  GrabList puede revisar tu coleccion de Rekordbox y marcar como
+  GrabList puede revisar tu colección de Rekordbox y marcar como
   "Ya lo tienes" los temas que ya tienes, para no bajarlos de nuevo.
   Se configura UNA sola vez:
-    1. En Rekordbox: menu "Archivo" -> "Exportar coleccion en formato xml"
-       (en ingles: "File" -> "Export Collection in xml format"; el nombre
-       puede variar un poco segun la version). Guardalo en un lugar facil,
-       por ejemplo:  Musica\DJAssist Grabber\rekordbox.xml
-    2. En Nicotine+: menu -> Preferencias -> "Plugins" -> click en
-       "GrabList" -> boton "Settings" -> en "Coleccion de Rekordbox
+    1. En Rekordbox: menú "Archivo" -> "Exportar colección en formato xml"
+       (en inglés: "File" -> "Export Collection in xml format"; el nombre
+       puede variar un poco según la versión). Guárdalo en un lugar fácil,
+       por ejemplo:  Música\DJAssist Grabber\rekordbox.xml
+    2. En Nicotine+: menú -> Preferencias -> "Plugins" -> clic en
+       "GrabList" -> botón "Settings" -> en "Colección de Rekordbox
        exportada en XML" elige ese archivo.
-  Abajo a la izquierda de la pagina vas a ver cuantos temas tiene tu
-  coleccion y cuando la exportaste.
+  Abajo a la izquierda de la página vas a ver cuántos temas tiene tu
+  colección y cuándo la exportaste.
 
-  Cuando agregues musica a Rekordbox, vuelve a exportar la coleccion al
-  MISMO archivo (reemplazandolo). GrabList lo nota solo.
+  Cuando agregues música a Rekordbox, vuelve a exportar la colección al
+  MISMO archivo (reemplazándolo). GrabList lo nota solo.
 
-  Solo cuenta si tienes la MISMA version. Si tienes otra (por ejemplo
+  Solo cuenta si tienes la MISMA versión. Si tienes otra (por ejemplo
   pediste el Extended y tienes el Original), el tema se busca igual y
-  aparece la nota "Tienes otra version en Rekordbox".
+  aparece la nota "Tienes otra versión en Rekordbox".
 
 Para buscar todo de una:
-  Click en "Buscar pendientes" (arriba a la derecha de la playlist).
-  El programa busca varios temas al mismo tiempo. Cada busqueda tarda
-  unos 12 segundos o mas, asi que una playlist de 30 temas puede tardar
-  algunos minutos. Puedes dejar la pagina abierta y hacer otra cosa.
+  Clic en "Buscar pendientes" (arriba a la derecha de la playlist).
+  El programa busca varios temas al mismo tiempo. Cada búsqueda tarda
+  unos 12 segundos o más, así que una playlist de 30 temas puede tardar
+  algunos minutos. Puedes dejar la página abierta y hacer otra cosa.
 
   - Cuando termina, te avisa: suena un "ding", aparece un aviso en la
-    pagina y (si le das permiso) una notificacion en tu computador, aunque
-    estes en otra pestana o en otro programa. Click en el aviso para ir
+    página y (si le das permiso) una notificación en tu computador, aunque
+    estés en otra pestaña o en otro programa. Clic en el aviso para ir
     directo a esa playlist.
-    La primera vez que aprietas "Buscar pendientes", el navegador te pregunta
-    si quieres permitir notificaciones: dale "Permitir".
-  - "Detener busqueda": frena las que faltan (las que ya estaban
-    buscando terminan igual). Si la detienes tu, no suena el aviso.
-  - "Busquedas en paralelo" (junto al titulo de la playlist): cuantos
+    La primera vez que presionas "Buscar pendientes", el navegador te
+    pregunta si quieres permitir notificaciones: dale "Permitir".
+  - "Detener búsqueda": frena las que faltan (las que ya estaban
+    buscando terminan igual). Si la detienes tú, no suena el aviso.
+  - "Búsquedas en paralelo" (junto al título de la playlist): cuántos
     temas busca al mismo tiempo (viene en 4). Si ves que muchos temas
-    salen "Sin resultados" de repente, bajalo a 1 o 2 (ver seccion 14).
+    salen "Sin resultados" de repente, bájalo a 1 o 2 (ver sección 14).
 
 Para buscar un solo tema:
-  Click en "Buscar" en la fila de ese tema.
+  Clic en "Buscar" en la fila de ese tema.
 
 Para ver solo algunos temas:
-  Arriba de la lista hay pestanas: Todos, Pendientes, Revisar, En curso,
-  Sin resultados, Descargados y Ya lo tienes, cada una con cuantos temas
+  Arriba de la lista hay pestañas: Todos, Pendientes, Revisar, En curso,
+  Sin resultados, Descargados y Ya lo tienes, cada una con cuántos temas
   tiene.
-  Click en "Revisar" para ir directo a los que te toca elegir.
+  Clic en "Revisar" para ir directo a los que te toca elegir.
 
-Que significa cada estado:
-  Pendiente               Todavia no se busca.
+Qué significa cada estado:
+  Pendiente               Todavía no se busca.
   Buscando...             Buscando en este momento.
-  Revisar                 Encontro opciones (el numero dice cuantas).
-                          Te toca elegir (seccion 10).
-  Descargando / Bajando   Lo elegiste y se esta bajando (con el % y una
+  Revisar                 Encontró opciones (el número dice cuántas).
+                          Te toca elegir (sección 10).
+  Descargando / Bajando   Lo elegiste y se está bajando (con el % y una
                           barrita de avance).
-  Descargado              Ya se bajo.
-  Sin resultados          No encontro nada que sirviera (seccion 11).
+  Descargado              Ya se bajó.
+  Sin resultados          No encontró nada que sirviera (sección 11).
   Manual                  Parece un loop, sample, acapella o edit
-                          personal, que casi nunca estan en Soulseek.
+                          personal, que casi nunca están en Soulseek.
                           "Buscar pendientes" se lo salta, pero puedes
-                          apretar "Buscar" en esa fila igual.
-  Ya lo tienes            Ya esta en tu coleccion de Rekordbox (misma
-                          version). "Buscar pendientes" se lo salta. Si
-                          igual lo quieres bajar, aprieta "Buscar igual".
+                          presionar "Buscar" en esa fila igual.
+  Ya lo tienes            Ya está en tu colección de Rekordbox (misma
+                          versión). "Buscar pendientes" se lo salta. Si
+                          igual lo quieres bajar, presiona "Buscar igual".
 
 La columna "Mejor archivo" resume cada tema: el formato del mejor
-candidato y si su dueno lo puede mandar altiro ("slot libre") o hay
+candidato y si su dueño lo puede mandar al toque ("slot libre") o hay
 fila ("en cola"), la velocidad mientras se baja, o el formato y peso de
 lo que ya bajaste.
 
 
 10. ELEGIR Y BAJAR CADA TEMA
 ----------------------------
-  1. En un tema con "Revisar", click en el tema (o en "Ver opciones", a
-     la derecha). Los candidatos se abren justo debajo; otro click en el
+  1. En un tema con "Revisar", clic en el tema (o en "Ver opciones", a
+     la derecha). Los candidatos se abren justo debajo; otro clic en el
      tema los vuelve a esconder.
   2. Aparecen hasta 5 archivos encontrados, el mejor arriba. Cada uno
-     muestra algo asi (en la pagina van separados por puntitos):
+     muestra algo así (en la página van separados por puntitos):
 
        Kideko - The Message (Extended Mix).mp3
        MP3 - 320kbps - 12.4 MB - usuario123 - slot libre - score 142.5
 
-     Que significa:
-       - Nombre del archivo: revisa que sea el tema y la version que
+     Qué significa:
+       - Nombre del archivo: revisa que sea el tema y la versión que
          quieres (Original, Extended, Remix de tal persona...).
        - MP3 / FLAC / AIFF / WAV: el formato. Se prefiere MP3 a 320kbps.
-         FLAC, AIFF y WAV son de maxima calidad pero pesan mucho mas.
-       - 320kbps: la calidad del MP3. 320 es lo maximo. Los de menos de
+         FLAC, AIFF y WAV son de máxima calidad pero pesan mucho más.
+       - 320kbps: la calidad del MP3. 320 es lo máximo. Los de menos de
          256 ni siquiera aparecen.
        - MB: lo que pesa. Un tema normal en MP3 320 pesa entre 8 y 20 MB.
-         Si pesa muy poco (1-3 MB), desconfia: puede ser un pedazo.
+         Si pesa muy poco (1-3 MB), desconfía: puede ser un pedazo.
        - usuario123: la persona que lo comparte.
-       - "slot libre": esa persona puede mandartelo altiro. Si dice
-         "en cola (5)", hay gente esperando antes que tu y va a tardar.
-       - score: un puntaje para ordenar las opciones. Mas alto = mejor
-         coincidencia y mas rapido de bajar. No hace falta entenderlo en
-         detalle: el de arriba suele ser la mejor opcion.
+       - "slot libre": esa persona puede mandártelo al toque. Si dice
+         "en cola (5)", hay gente esperando antes que tú y va a tardar.
+       - score: un puntaje para ordenar las opciones. Más alto = mejor
+         coincidencia y más rápido de bajar. No hace falta entenderlo en
+         detalle: el de arriba suele ser la mejor opción.
 
-  3. Click en "Bajar" en el que elijas (el de arriba, el mejor, viene
+  3. Clic en "Bajar" en el que elijas (el de arriba, el mejor, viene
      destacado).
   4. El tema pasa a "Descargando" con una barra de avance. Cuando llega
      al 100% pasa a "Descargado" y muestra el nombre del archivo bajado.
-  5. En los temas "Descargado" aparece el boton "Mostrar archivo": abre la
+  5. En los temas "Descargado" aparece el botón "Mostrar archivo": abre la
      carpeta con el archivo ya marcado, para arrastrarlo directo a
      Rekordbox. En "Ya lo tienes" hace lo mismo con el archivo de tu
-     coleccion. Si lo moviste o borraste, abre la carpeta donde deberia
+     colección. Si lo moviste o borraste, abre la carpeta donde debería
      estar y te avisa.
 
-  Click en un tema "Descargado" o "Ya lo tienes" (o el boton "Ver ruta")
-  despliega la ruta completa del archivo en tu disco. Click en esa ruta
+  Clic en un tema "Descargado" o "Ya lo tienes" (o el botón "Ver ruta")
+  despliega la ruta completa del archivo en tu disco. Clic en esa ruta
   lo abre directo con tu reproductor (no solo la carpeta, como
   "Mostrar archivo").
 
   Por defecto lo abre con lo que tu sistema tenga asociado a ese tipo de
   archivo. Si prefieres que se abra siempre con un programa en particular
   (VLC, Serato, tu reproductor de siempre):
-    Nicotine+ -> menu -> Preferencias -> "Plugins" -> click en
-    "GrabList" -> boton "Settings" (Ajustes) -> en "Programa para
+    Nicotine+ -> menú -> Preferencias -> "Plugins" -> clic en
+    "GrabList" -> botón "Settings" (Ajustes) -> en "Programa para
     abrir un tema ya bajado..." elige el programa (el .exe en Windows).
-    Vacio = el de siempre.
+    Vacío = el de siempre.
 
   Junto al nombre de la playlist (al lado de "renombrar") aparece el
-  boton "Reproducir todo": manda de una, en orden, todos los temas
-  "Descargado" y "Ya lo tienes" que sigan en tu disco. La mayoria de
+  botón "Reproducir todo": manda de una, en orden, todos los temas
+  "Descargado" y "Ya lo tienes" que sigan en tu disco. La mayoría de
   los reproductores (VLC, Winamp, foobar2000...) los encolan y los
   reproducen seguidos, como un set. Necesita el reproductor elegido
   (arriba): sin eso aparece apagado, porque no hay forma de mandarle
   varios archivos de una al programa por defecto del sistema.
 
-  El mismo boton (como icono de "play") tambien esta en la tarjeta de
+  El mismo botón (como ícono de "play") también está en la tarjeta de
   la playlist en "Mis playlists", para reproducir sin entrar a la
   playlist.
 
-  Cada tema tiene ademas un boton "Borrar" (junto a los demas botones de
-  acciones): saca ese tema de la playlist, nada mas. No borra ningun
+  Cada tema tiene además un botón "Borrar" (junto a los demás botones de
+  acciones): saca ese tema de la playlist, nada más. No borra ningún
   archivo que ya hayas bajado, y pide confirmar antes de hacerlo porque
   no se puede deshacer.
 
-Con el teclado (mas rapido en playlists largas):
+Con el teclado (más rápido en playlists largas):
   Esta misma lista queda de recordatorio en la barra de abajo de la
-  pagina mientras estas viendo una playlist.
+  página mientras estás viendo una playlist.
 
   Flecha abajo / arriba     marca el tema siguiente / anterior
-  Flecha derecha / izq.     cambia de pestana (Todos, Revisar, ...)
+  Flecha derecha / izq.     cambia de pestaña (Todos, Revisar, ...)
   Enter                     abre las opciones del tema marcado; si ya
-                            estan abiertas, baja el candidato marcado
+                            están abiertas, baja el candidato marcado
   J / K                     marca el candidato siguiente / anterior
-  E                         corrige artista y titulo del tema marcado
+  E                         corrige artista y título del tema marcado
   Escape                    cierra las opciones
-  Ejemplo: pestana "Revisar" -> Enter -> J hasta el que quieres -> Enter.
+  Ejemplo: pestaña "Revisar" -> Enter -> J hasta el que quieres -> Enter.
   Ese tema se pone a bajar, sale de "Revisar" y queda marcado el
-  siguiente: Enter, Enter, y asi.
+  siguiente: Enter, Enter, y así.
   Mientras escribes (corregir, renombrar) las teclas escriben normal.
 
 Bajar varios de una (coincidencia exacta):
-  Cuando ya buscaste la playlist, puede aparecer arriba un boton como
+  Cuando ya buscaste la playlist, puede aparecer arriba un botón como
   "Descargar (12) tracks". Manda a descargar de una todos los temas en
   Revisar donde hay un candidato que calza exacto:
     - trae el artista y el nombre completos del tema,
-    - es la MISMA version que pediste (si pediste el Original, no te baja
+    - es la MISMA versión que pediste (si pediste el Original, no te baja
       un Remix, un Dub ni un Radio Edit),
-    - y esta en el formato preferido (MP3 a 320kbps).
+    - y está en el formato preferido (MP3 a 320kbps).
   Te pide confirmar antes. Los temas que no calzan exacto quedan en
   "Revisar" para que los elijas a mano como siempre.
   Dentro de "Ver opciones", los candidatos exactos tienen la etiqueta
   "Coincidencia exacta".
 
-  OJO: la coincidencia es segun el nombre del archivo. Igual conviene
+  OJO: la coincidencia es según el nombre del archivo. Igual conviene
   escuchar los temas antes de tocarlos en un set.
 
 Si una descarga no avanza:
   A veces la persona se desconecta o tiene una fila larga. En Nicotine+,
-  en la pestana "Descargas", puedes ver que pasa. Si se queda pegada
-  mucho rato, en la pagina elige otro candidato de ese tema (con "slot
+  en la pestaña "Descargas", puedes ver qué pasa. Si se queda pegada
+  mucho rato, en la página elige otro candidato de ese tema (con "slot
   libre"). Mensajes como "connection timeout" o colas largas son normales
-  en Soulseek: no es que algo este roto.
+  en Soulseek: no es que algo esté roto.
 
 Si bajaste el tema equivocado:
-  En los temas "Descargado" hay un boton "Buscar otra vez": lo vuelve a
+  En los temas "Descargado" hay un botón "Buscar otra vez": lo vuelve a
   pendiente para que busques y elijas de nuevo. (El archivo que ya bajaste
-  no se borra: si no lo quieres, borralo tu de la carpeta de descargas.)
+  no se borra: si no lo quieres, bórralo tú de la carpeta de descargas.)
 
-  El lapiz al lado del nombre tambien sirve en temas "Descargado" o
-  "Descargando", pero ahi solo corrige como se ve en la lista: el
+  El lápiz al lado del nombre también sirve en temas "Descargado" o
+  "Descargando", pero ahí solo corrige cómo se ve en la lista: el
   archivo elegido no cambia.
 
 
@@ -528,48 +528,48 @@ Si bajaste el tema equivocado:
 -------------------------
 Cuando un tema sale "Sin resultados":
 
-  1. Revisa que artista y nombre esten bien escritos. Si hay un error,
-     corrigelo ahi mismo: click en el lapiz que aparece al lado del
-     nombre del tema, arregla el artista o el titulo y Enter (o
+  1. Revisa que artista y nombre estén bien escritos. Si hay un error,
+     corrígelo ahí mismo: clic en el lápiz que aparece al lado del
+     nombre del tema, arregla el artista o el título y Enter (o
      "Guardar"). Se vuelve a buscar solo, con el texto corregido.
      (Escape o "Cancelar" para salir sin cambiar nada.)
-  2. Click en "Ver opciones": debajo del tema aparecen botones para abrir
-     la busqueda en Bandcamp, SoundCloud y YouTube en tu navegador.
+  2. Clic en "Ver opciones": debajo del tema aparecen botones para abrir
+     la búsqueda en Bandcamp, SoundCloud y YouTube en tu navegador.
      - "Resultados directos en Bandcamp" trae links a temas de Bandcamp
-       que se parecen: click para ir a la pagina del tema.
+       que se parecen: clic para ir a la página del tema.
      - YouTube sirve para escuchar y confirmar que es el tema, pero no
        para bajarlo: el audio de YouTube tiene poca calidad para tocar.
-     Muchos temas que no estan en Soulseek se pueden comprar en Bandcamp
+     Muchos temas que no están en Soulseek se pueden comprar en Bandcamp
      (apoyas directo al artista) o son descarga gratis en SoundCloud.
-  3. Intenta mas tarde: la gente que comparte musica se conecta y
-     desconecta todo el tiempo. Un tema que hoy no aparece, manana puede
-     estar. Usa el boton "Buscar" en esa fila.
+  3. Intenta más tarde: la gente que comparte música se conecta y
+     desconecta todo el tiempo. Un tema que hoy no aparece, mañana puede
+     estar. Usa el botón "Buscar" en esa fila.
 
-  Si un tema ya lleva 3 o mas busquedas sin suerte, el estado pasa a
+  Si un tema ya lleva 3 o más búsquedas sin suerte, el estado pasa a
   decir "Sin resultados - 3 intentos" (o los que sean) y aparece una
   nota sugiriendo Bandcamp o SoundCloud: probablemente ese tema
-  simplemente no esta en Soulseek, mas alla de cuantas veces lo busques.
+  simplemente no está en Soulseek, más allá de cuántas veces lo busques.
 
 Para buscar todos los que faltan en otro lado:
-  Arriba de la playlist aparece el boton "Copiar faltantes (6)". Copia
-  al portapapeles los temas "Sin resultados" y "Manual", uno por linea:
+  Arriba de la playlist aparece el botón "Copiar faltantes (6)". Copia
+  al portapapeles los temas "Sin resultados" y "Manual", uno por línea:
 
       Kideko, Roland Clark - Have a Good Time
       Laurence Guy - U GO
 
-  Pegalo donde quieras (Bloc de notas, un chat, tu lista para Bandcamp)
+  Pégalo donde quieras (Bloc de notas, un chat, tu lista para Bandcamp)
   con Ctrl + V (Windows) o Cmd + V (Mac).
 
 Para compartir una playlist completa con un amigo:
-  El icono de compartir (los tres puntitos conectados) manda TODOS los
-  temas, no solo los que faltan, en el mismo formato "Artista - Titulo".
-  Esta arriba de la playlist (junto a "Copiar faltantes") y tambien en
-  su tarjeta en "Mis playlists", asi no hace falta entrar a la playlist
+  El ícono de compartir (los tres puntitos conectados) manda TODOS los
+  temas, no solo los que faltan, en el mismo formato "Artista - Título".
+  Está arriba de la playlist (junto a "Copiar faltantes") y también en
+  su tarjeta en "Mis playlists", así no hace falta entrar a la playlist
   para compartirla. En Windows y Mac abre el panel para compartir de tu
   sistema (WhatsApp, Mail, Mensajes, AirDrop...). Firefox no tiene ese
-  panel (nunca lo agrego para escritorio, no es algo que podamos
-  arreglar desde la pagina): ahi copia la lista al portapapeles y
-  ademas ofrece dos links directos, "WhatsApp" y "correo", que abren
+  panel (nunca lo agregó para escritorio, no es algo que podamos
+  arreglar desde la página): ahí copia la lista al portapapeles y
+  además ofrece dos links directos, "WhatsApp" y "correo", que abren
   esas apps con la lista ya escrita.
 
   Ojo: esto comparte la LISTA de temas, no los archivos que ya bajaste.
@@ -580,59 +580,59 @@ Para compartir una playlist completa con un amigo:
 12. ORDENAR TUS PLAYLISTS (RENOMBRAR, BORRAR)
 ---------------------------------------------
 Renombrar:
-  - Desde "Mis playlists": el lapiz en la tarjeta -> escribe el nombre
+  - Desde "Mis playlists": el lápiz en la tarjeta -> escribe el nombre
     nuevo -> "Guardar" (o "Cancelar" para salir sin cambiar nada).
-  - Desde adentro de una playlist: click en "renombrar" (al lado del
-    titulo) -> escribe el nombre nuevo -> Enter o "Guardar". (Escape o
+  - Desde adentro de una playlist: clic en "renombrar" (al lado del
+    título) -> escribe el nombre nuevo -> Enter o "Guardar". (Escape o
     "Cancelar" para salir sin cambiar nada.)
 
 Borrar:
   - Desde "Mis playlists": la "x" en la esquina de la tarjeta.
-  - Desde adentro de una playlist: boton "..." (arriba a la derecha) ->
+  - Desde adentro de una playlist: botón "..." (arriba a la derecha) ->
     "Borrar esta playlist".
   Te pide confirmar. Borrar una playlist NO borra los temas que ya
-  bajaste, solo la lista de la pagina. Pero no se puede deshacer.
+  bajaste, solo la lista de la página. Pero no se puede deshacer.
 
 Tus playlists se guardan solas: puedes cerrar el navegador, apagar el
 computador, y al volver todo sigue donde lo dejaste.
 
 
-13. DONDE QUEDAN LAS COSAS
+13. DÓNDE QUEDAN LAS COSAS
 --------------------------
 Los temas que bajas:
   Cada playlist se guarda en SU PROPIA carpeta, con el nombre de la
   playlist, adentro de la carpeta de descargas de Nicotine+ (la que
-  elegiste en la seccion 4). Por ejemplo:
+  elegiste en la sección 4). Por ejemplo:
 
-      Descargas\Set sabado\Kideko - The Message.mp3
+      Descargas\Set sábado\Kideko - The Message.mp3
       Descargas\Favoritos marzo\Laurence Guy - U GO.mp3
 
-  Asi, cuando terminas, arrastras la carpeta completa a Rekordbox.
+  Así, cuando terminas, arrastras la carpeta completa a Rekordbox.
 
-  La carpeta toma el nombre que tenia la playlist cuando bajaste el
-  primer tema. Si despues renombras la playlist, la carpeta NO cambia
-  (asi los temas no quedan repartidos en dos carpetas).
+  La carpeta toma el nombre que tenía la playlist cuando bajaste el
+  primer tema. Si después renombras la playlist, la carpeta NO cambia
+  (así los temas no quedan repartidos en dos carpetas).
 
-  Si tenias una playlist de antes de esta proteccion (o le paso algo
-  raro) y sus temas quedaron repartidos en dos carpetas, la pagina te
+  Si tenías una playlist de antes de esta protección (o le pasó algo
+  raro) y sus temas quedaron repartidos en dos carpetas, la página te
   avisa arriba de la tabla ("N temas quedaron en otra carpeta") con un
-  boton "Unificar carpetas": mueve esos archivos a la carpeta actual de
+  botón "Unificar carpetas": mueve esos archivos a la carpeta actual de
   la playlist y actualiza el registro, para que "Reproducir todo" y
   arrastrar la carpeta a Rekordbox los encuentren a todos. Si en la
   carpeta actual ya hay un archivo con el mismo nombre, ese en
-  particular no se mueve (para no pisar nada) y te avisa cual.
+  particular no se mueve (para no pisar nada) y te avisa cuál.
 
   Si prefieres que las carpetas de las playlists se creen en otro lado:
-    Nicotine+ -> menu -> Preferencias -> "Plugins" -> click en
-    "GrabList" -> boton "Settings" (Ajustes) -> en "Carpeta donde
+    Nicotine+ -> menú -> Preferencias -> "Plugins" -> clic en
+    "GrabList" -> botón "Settings" (Ajustes) -> en "Carpeta donde
     se crea una carpeta por cada playlist" elige la carpeta que quieras.
-    Si lo dejas vacio, se usa la carpeta de descargas de Nicotine+.
+    Si lo dejas vacío, se usa la carpeta de descargas de Nicotine+.
 
-  Si no te acuerdas cual es, o quieres cambiarla:
-    Nicotine+ -> menu -> Preferencias -> "Descargas" ("Downloads") ->
+  Si no te acuerdas cuál es, o quieres cambiarla:
+    Nicotine+ -> menú -> Preferencias -> "Descargas" ("Downloads") ->
     "Carpeta de descargas" ("Download folder").
 
-  Si nunca la elegiste, la carpeta por defecto esta escondida en:
+  Si nunca la elegiste, la carpeta por defecto está escondida en:
     Windows: C:\Users\TU_USUARIO\AppData\Roaming\nicotine\downloads
              (para llegar: tecla Windows + R, escribe
               %APPDATA%\nicotine\downloads  y Enter)
@@ -640,17 +640,17 @@ Los temas que bajas:
              (en Finder: Cmd + Shift + G y pega
               ~/.local/share/nicotine/downloads )
 
-Tus playlists (las listas de la pagina): se guardan en una carpeta que
-todavia se llama "Colas" (nombre tecnico, viejo):
-  Windows: Musica\DJAssist Grabber\Colas
-  Mac:     Musica/DJAssist Grabber/Colas
+Tus playlists (las listas de la página): se guardan en una carpeta que
+todavía se llama "Colas" (nombre técnico, viejo):
+  Windows: Música\DJAssist Grabber\Colas
+  Mac:     Música/DJAssist Grabber/Colas
 
   Son archivos .json. NO los abras, edites ni borres a mano: se puede
-  romper o perder la playlist. Para todo eso usa la pagina. Si quieres
+  romper o perder la playlist. Para todo eso usa la página. Si quieres
   respaldar tus playlists, copia la carpeta completa a otro lado.
 
 Este mismo LEEME:
-  Tambien queda una copia en Musica/DJAssist Grabber, para que lo tengas
+  También queda una copia en Música/DJAssist Grabber, para que lo tengas
   a mano.
 
 
@@ -658,75 +658,75 @@ Este mismo LEEME:
 PARTE 3 - AYUDA
 ===========================================================================
 
-14. PROBLEMAS COMUNES Y COMO ARREGLARLOS
+14. PROBLEMAS COMUNES Y CÓMO ARREGLARLOS
 ----------------------------------------
-"La pagina http://127.0.0.1:8765 no carga"
-  - Esta abierto Nicotine+? Tiene que estarlo.
-  - Esta activado el plugin? Revisa la seccion 5.
+"La página http://127.0.0.1:8765 no carga"
+  - ¿Está abierto Nicotine+? Tiene que estarlo.
+  - ¿Está activado el plugin? Revisa la sección 5.
   - Prueba desactivar y volver a activar GrabList en
-    Preferencias -> Plugins, y recarga la pagina.
-  - Si nada funciona, cierra Nicotine+ por completo y abrelo de nuevo.
+    Preferencias -> Plugins, y recarga la página.
+  - Si nada funciona, cierra Nicotine+ por completo y ábrelo de nuevo.
 
 "Todos los temas salen Sin resultados"
-  - Nicotine+ esta conectado? Si no hay sesion iniciada, no puede buscar.
+  - ¿Nicotine+ está conectado? Si no hay sesión iniciada, no puede buscar.
   - Si antes funcionaba y de repente muchos seguidos salen sin
-    resultados, puede que Soulseek este ignorando tus busquedas por hacer
-    muchas muy rapido. Baja "Busquedas en paralelo" (junto al titulo de
+    resultados, puede que Soulseek esté ignorando tus búsquedas por hacer
+    muchas muy rápido. Baja "Búsquedas en paralelo" (junto al título de
     la playlist) a 1 o 2, espera unos minutos, y vuelve a buscar esos
-    temas. La pagina detecta esta racha sola y te lo avisa con un
-    mensaje, asi no hace falta que lo notes vos primero.
+    temas. La página detecta esta racha sola y te lo avisa con un
+    mensaje, así no hace falta que tú lo notes primero.
 
-"Instalar.bat abre y se cierra altiro" (Windows)
-  - Asegurate de haber extraido el .zip (seccion 2, paso 1).
-  - Si instalaste Python recien, reinicia el computador y prueba de nuevo.
-  - Si instalaste Python sin marcar "Add python.exe to PATH", desinstalalo
+"Instalar.bat abre y se cierra al toque" (Windows)
+  - Asegúrate de haber extraído el .zip (sección 2, paso 1).
+  - Si instalaste Python recién, reinicia el computador y prueba de nuevo.
+  - Si instalaste Python sin marcar "Add python.exe to PATH", desinstálalo
     y vuelve a instalarlo marcando esa casilla.
 
 "No aparece GrabList en la lista de Plugins"
-  - Vuelve a correr el instalador (seccion 2 o 3).
-  - Cierra Nicotine+ por completo y abrelo de nuevo.
+  - Vuelve a correr el instalador (sección 2 o 3).
+  - Cierra Nicotine+ por completo y ábrelo de nuevo.
 
 "El OCR dio error al instalar"
-  - Revisa tu conexion y que tengas al menos 3 GB libres en el disco.
-  - Vuelve a subir la imagen y aprieta "Instalar OCR" otra vez.
-  - Si sigue fallando, sacale una foto al mensaje de error y mandasela a
-    quien te paso el programa.
+  - Revisa tu conexión y que tengas al menos 3 GB libres en el disco.
+  - Vuelve a subir la imagen y presiona "Instalar OCR" otra vez.
+  - Si sigue fallando, sácale una foto al mensaje de error y mándasela a
+    quien te pasó el programa.
 
 "El OCR lee cualquier cosa"
-  - Revisa los consejos de la seccion 8 (captura nitida, solo la lista).
+  - Revisa los consejos de la sección 8 (captura nítida, solo la lista).
   - Siempre puedes escribir o pegar la lista a mano en un .txt.
 
 "La descarga se queda pegada en 0%"
-  - Normal en Soulseek. Elige otro candidato con "slot libre" (seccion 10).
+  - Normal en Soulseek. Elige otro candidato con "slot libre" (sección 10).
 
-"Algo raro que no esta aca"
-  - Cierra Nicotine+, abrelo de nuevo, y recarga la pagina.
-  - Si sigue, anota que estabas haciendo, sacale foto a cualquier mensaje
-    de error y mandaselo a quien te paso el programa.
+"Algo raro que no está aquí"
+  - Cierra Nicotine+, ábrelo de nuevo, y recarga la página.
+  - Si sigue, anota qué estabas haciendo, sácale foto a cualquier mensaje
+    de error y mándaselo a quien te pasó el programa.
 
 
-15. ACTUALIZAR A UNA VERSION NUEVA
+15. ACTUALIZAR A UNA VERSIÓN NUEVA
 ----------------------------------
-Como me entero de que hay una version nueva?
-  La pagina revisa sola una vez al dia. Si hay una version nueva, aparece
-  una franja verde arriba que dice "Hay una version nueva" con un boton
-  "Descargar". Tambien puedes revisar cuando quieras con el boton
+¿Cómo me entero de que hay una versión nueva?
+  La página revisa sola una vez al día. Si hay una versión nueva, aparece
+  una franja verde arriba que dice "Hay una versión nueva" con un botón
+  "Descargar". También puedes revisar cuando quieras con el botón
   "Buscar actualizaciones" (abajo a la derecha).
   Necesita internet. Nunca instala nada sola: solo te avisa.
 
-Que version tengo?
-  En la pagina, en la barra de abajo a la derecha, dice la version (por
-  ejemplo "v1.0"). El .zip trae la version en el nombre
-  (por ejemplo "GrabList-v1.1.zip"). Si el numero del zip es mas
-  alto que el de tu pagina, es una version nueva.
+¿Qué versión tengo?
+  En la página, en la barra de abajo a la derecha, dice la versión (por
+  ejemplo "v1.0"). El .zip trae la versión en el nombre
+  (por ejemplo "GrabList-v1.1.zip"). Si el número del zip es más
+  alto que el de tu página, es una versión nueva.
 
-Cuando haya una version nueva:
-  1. Baja el .zip nuevo (boton "Descargar" de la franja verde, o el que te
-     pasen) y descomprimelo (puedes borrar la carpeta vieja).
-  2. Doble click en "Instalar.bat" (Windows) o "Instalar.command" (Mac).
+Cuando haya una versión nueva:
+  1. Baja el .zip nuevo (botón "Descargar" de la franja verde, o el que te
+     pasen) y descomprímelo (puedes borrar la carpeta vieja).
+  2. Doble clic en "Instalar.bat" (Windows) o "Instalar.command" (Mac).
   3. En Nicotine+: Preferencias -> Plugins -> desmarca GrabList y
      vuelve a marcarlo. (O simplemente cierra y abre Nicotine+.)
-  4. Recarga la pagina en el navegador.
+  4. Recarga la página en el navegador.
 
 Tus playlists NO se pierden al actualizar, y el OCR no hay que
 instalarlo de nuevo.
@@ -740,7 +740,7 @@ instalarlo de nuevo.
      Windows (tecla Windows + R, pega cada ruta y Enter para abrirla):
        %APPDATA%\nicotine\plugins\djassist_grabber      (el programa)
        %LOCALAPPDATA%\DJAssist Grabber                  (el OCR, ~1-2 GB)
-       Musica\DJAssist Grabber\Colas                    (tus playlists)
+       Música\DJAssist Grabber\Colas                    (tus playlists)
 
      Mac (en Finder: Cmd + Shift + G y pega cada ruta):
        ~/.local/share/nicotine/plugins/djassist_grabber (el programa)
@@ -754,18 +754,18 @@ instalarlo de nuevo.
 17. BUENA ONDA EN SOULSEEK (IMPORTANTE)
 ---------------------------------------
 Soulseek funciona porque la gente comparte. No hay un servidor con la
-musica: cada tema que bajas te lo esta mandando otra persona desde su
+música: cada tema que bajas te lo está mandando otra persona desde su
 propio computador.
 
   - Comparte algo. Mucha gente bloquea o pone al final de la fila a
-    quienes bajan sin compartir nada. Si compartes, vas a bajar mas
-    rapido y con menos rechazos.
+    quienes bajan sin compartir nada. Si compartes, vas a bajar más
+    rápido y con menos rechazos.
     Nicotine+ -> Preferencias -> "Compartidos" ("Shares") -> agrega una
-    carpeta con musica.
+    carpeta con música.
   - No te desesperes. Si alguien tiene una fila larga, espera o elige
-    a otra persona. No le mandes mensajes apurandolo.
-  - No bajes discografias completas de una misma persona de golpe.
-  - Si un tema lo encuentras en Bandcamp y te gusta mucho, compralo: asi
-    apoyas al artista para que siga sacando musica.
+    a otra persona. No le mandes mensajes apurándolo.
+  - No bajes discografías completas de una misma persona de golpe.
+  - Si un tema lo encuentras en Bandcamp y te gusta mucho, cómpralo: así
+    apoyas al artista para que siga sacando música.
 
-Disfruta y buenos sets!
+¡Disfruta y buenos sets!
