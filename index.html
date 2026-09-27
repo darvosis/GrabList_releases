@@ -54,12 +54,20 @@
           <span class="chapter-number">08</span>
           <span><b>Playlist con OCR</b><small>Leer varias imágenes</small></span>
         </button>
+        <button class="chapter" type="button" data-chapter="9">
+          <span class="chapter-number">09</span>
+          <span><b>Ordenar</b><small>Tu orden, en tu player</small></span>
+        </button>
+        <button class="chapter" type="button" data-chapter="10">
+          <span class="chapter-number">10</span>
+          <span><b>Decks</b><small>Escuchar y mezclar</small></span>
+        </button>
       </nav>
 
       <div class="rail-footer">
         <span class="connection-dot"></span>
         <span>WINDOWS</span>
-        <b id="rail-progress">CAPÍTULO 1 DE 8</b>
+        <b id="rail-progress">CAPÍTULO 1 DE 10</b>
       </div>
     </aside>
 
@@ -289,7 +297,7 @@ Presiona una tecla para cerrar...</pre>
           </div>
           <div class="browser-demo">
             <div class="browser-chrome"><span>←</span><span>→</span><span>↻</span><div class="address-bar"><i></i><b>http://127.0.0.1:8765</b><em></em></div><span>⋮</span></div>
-            <div class="browser-page"><aside><b>GRAB</b><i>LIST</i><button type="button" tabindex="-1">+ NUEVA PLAYLIST</button><span>MIS PLAYLISTS</span></aside><main><small>BIENVENIDO</small><h3>Tu música empieza aquí.</h3><p>Carga tu primera playlist para comenzar.</p><button type="button" tabindex="-1">NUEVA PLAYLIST</button></main></div>
+            <div class="browser-page"><aside><b><i>GRAB</i>LIST</b><button type="button" tabindex="-1">+ NUEVA PLAYLIST</button><button class="decks-mini" type="button" tabindex="-1"><i></i> DECKS</button><span>MIS PLAYLISTS</span></aside><main><small>BIENVENIDO</small><h3>Tu música empieza aquí.</h3><p>Carga tu primera playlist para comenzar.</p><button type="button" tabindex="-1">NUEVA PLAYLIST</button></main></div>
           </div>
           <div class="bookmark-tip"><span>☆</span><p><b>Guárdala en favoritos</b><small>La dirección siempre será la misma.</small></p></div>
           <div class="scene-caption"><span>03</span> Esa página vive en tu computador: no es un sitio público.</div>
@@ -304,7 +312,7 @@ Presiona una tecla para cerrar...</pre>
             <div class="key-hint"><kbd>+</kbd><span>Una playlist nueva no altera las anteriores.</span></div>
           </div>
           <div class="app-shell-demo home-demo">
-            <aside><b>GRAB</b><i>LIST</i><button class="highlight-action" type="button" tabindex="-1">+ NUEVA PLAYLIST</button><span>MIS PLAYLISTS</span><small>Aún no tienes playlists</small></aside>
+            <aside><b><i>GRAB</i>LIST</b><button class="highlight-action" type="button" tabindex="-1">+ NUEVA PLAYLIST</button><button class="decks-mini" type="button" tabindex="-1"><i></i> DECKS</button><span>MIS PLAYLISTS</span><small>Aún no tienes playlists</small></aside>
             <main><span class="empty-disc">＋</span><h3>Tu música empieza aquí</h3><p>Carga una lista y GrabList buscará los temas.</p></main>
             <div class="demo-pointer app-pointer"><span></span></div>
           </div>
@@ -588,6 +596,164 @@ Presiona una tecla para cerrar...</pre>
           </div>
           <div class="scene-caption"><span>06</span> Ponle un nombre claro y pulsa “Crear playlist”.</div>
         </article>
+
+        <!-- Capítulo 9 · Ordenar la playlist -->
+        <article class="scene guide-scene visual-right" data-chapter="9" data-scene="0" aria-hidden="true">
+          <div class="guide-copy">
+            <span class="scene-kicker"><i></i> ORDENAR · ARRASTRAR</span>
+            <h2>Arrastra<br>y <em>suelta.</em></h2>
+            <p>En la pestaña <b>Todos</b>, toma un tema por su asa (los seis puntitos, a la izquierda del número) y suéltalo donde quieras. Una línea marca dónde va a quedar.</p>
+            <div class="key-hint"><kbd>ALT ↑↓</kbd><span>Con el teclado: marca el tema y usa <b>Alt + flecha</b> (en Mac, Option).</span></div>
+          </div>
+          <div class="reorder-demo" aria-label="Arrastrar un tema a otro lugar de la playlist">
+            <div class="play-playlist-head"><p><small>MI PLAYLIST</small><b>Set del sábado</b><span>5 temas · en tu orden</span></p></div>
+            <div class="status-tabs all-tabs"><span class="active">Todos <b>5</b></span><span>Pendientes <b>0</b></span><span>Descargados <b>5</b></span></div>
+            <div class="order-rows">
+              <div><i class="grip"></i><span>01</span><p><b>Kideko</b><small>The Message</small></p><em>DESCARGADO</em></div>
+              <div><i class="grip"></i><span>02</span><p><b>Laurence Guy</b><small>U GO</small></p><em>DESCARGADO</em></div>
+              <div class="order-source"><i class="grip"></i><span>03</span><p><b>Paluma</b><small>Rapture</small></p><em>DESCARGADO</em></div>
+              <div><i class="grip"></i><span>04</span><p><b>Joshwa</b><small>Mercy</small></p><em>DESCARGADO</em></div>
+              <i class="order-drop-line"></i>
+              <span class="order-ghost">Paluma - Rapture</span>
+              <div class="demo-pointer order-pointer"><span></span></div>
+            </div>
+          </div>
+          <div class="scene-caption"><span>01</span> El orden nuevo se guarda solo, al soltar.</div>
+        </article>
+
+        <article class="scene guide-scene visual-left" data-chapter="9" data-scene="1" aria-hidden="true">
+          <div class="m3u8-demo" aria-label="Archivo .m3u8 con el orden de la playlist">
+            <div class="desktop-top"><span>Descargas › Set del sábado</span><i>—</i><i>□</i><i>×</i></div>
+            <div class="m3u8-files">
+              <div class="m3u8-file"><i>M3U8</i><p><b>Set del sábado.m3u8</b><small>Lista de reproducción</small></p><em>SE ACTUALIZA SOLA</em></div>
+              <div><i>♫</i><p><b>Kideko - The Message.mp3</b></p></div>
+              <div><i>♫</i><p><b>Laurence Guy - U GO.mp3</b></p></div>
+              <div><i>♫</i><p><b>Paluma - Rapture.mp3</b></p></div>
+            </div>
+            <div class="m3u8-preview"><small>ADENTRO, EN TU ORDEN</small><code><span>01</span> Kideko - The Message<br><span>02</span> Paluma - Rapture<br><span>03</span> Laurence Guy - U GO</code></div>
+          </div>
+          <div class="guide-copy">
+            <span class="scene-kicker"><i></i> ORDENAR · ESCUCHAR</span>
+            <h2>Tu orden,<br>en tu <em>player.</em></h2>
+            <p><b>Reproducir todo</b> abre los temas en el orden de la tabla. Además, en la carpeta de la playlist queda un archivo <b>.m3u8</b> con ese orden, que se actualiza solo.</p>
+            <div class="callout success"><span>▶</span><p><b>Ábrelo cuando quieras.</b><small>Con VLC u otro reproductor, aunque GrabList esté cerrado.</small></p></div>
+          </div>
+          <div class="scene-caption"><span>02</span> El .m3u8 trae los temas que ya tienes: descargados o de tu Rekordbox.</div>
+        </article>
+
+        <article class="scene guide-scene visual-right" data-chapter="9" data-scene="2" aria-hidden="true">
+          <div class="guide-copy">
+            <span class="scene-kicker"><i></i> ORDENAR · DESHACER</span>
+            <h2>Vuelve al<br>orden <em>original.</em></h2>
+            <p>Si cambiaste el orden, a la derecha de las pestañas aparece <b>↺ Orden original</b>. Deja los temas como estaban cuando importaste la playlist.</p>
+            <div class="callout warn"><span>!</span><p><b>Te pide confirmar.</b><small>El orden que armaste se pierde.</small></p></div>
+          </div>
+          <div class="restore-demo" aria-label="Botón Orden original y su confirmación">
+            <div class="restore-bar"><div class="status-tabs all-tabs"><span class="active">Todos <b>5</b></span><span>Pendientes <b>0</b></span><span>Descargados <b>5</b></span></div><button type="button" tabindex="-1">↺ ORDEN ORIGINAL</button></div>
+            <div class="restore-rows"><div><span>01</span><b>Paluma</b><p>Rapture</p></div><div><span>02</span><b>Kideko</b><p>The Message</p></div><div><span>03</span><b>Joshwa</b><p>Mercy</p></div><div><span>04</span><b>Laurence Guy</b><p>U GO</p></div></div>
+            <div class="restore-dialog">
+              <b>¿Volver al orden original?</b>
+              <p>Los temas quedan en el orden en que importaste la playlist. El orden que armaste se pierde.</p>
+              <div><button type="button" tabindex="-1">CANCELAR</button><button type="button" tabindex="-1">VOLVER AL ORIGINAL</button></div>
+            </div>
+          </div>
+          <div class="scene-caption"><span>03</span> El botón solo aparece cuando el orden cambió.</div>
+        </article>
+
+        <!-- Capítulo 10 · Decks A y B -->
+        <article class="scene guide-scene visual-right" data-chapter="10" data-scene="0" aria-hidden="true">
+          <div class="guide-copy">
+            <span class="scene-kicker"><i></i> DECKS · MOSTRAR</span>
+            <h2>Dos decks,<br><em>arriba.</em></h2>
+            <p>Pulsa <b>Decks</b>, bajo <b>+ Nueva playlist</b>. Aparecen dos reproductores, A y B, arriba de la lista, como en Rekordbox: escuchas tus temas sin abrir otro programa.</p>
+            <div class="callout success"><span>♪</span><p><b>Siguen sonando.</b><small>Aunque cambies de playlist o los vuelvas a ocultar.</small></p></div>
+          </div>
+          <div class="decks-shell-demo" aria-label="Botón Decks y los decks A y B arriba de la lista">
+            <aside><b><i>GRAB</i>LIST</b><button type="button" tabindex="-1">+ NUEVA PLAYLIST</button><button class="decks-button" type="button" tabindex="-1"><i></i> DECKS</button><span>MIS PLAYLISTS</span><small>Set del sábado</small></aside>
+            <main>
+              <div class="mini-decks">
+                <div class="mini-deck"><span>A</span><p><b>Arrastra un tema aquí</b><small>o márcalo y aprieta 1</small></p><i class="mini-seek"></i></div>
+                <div class="mini-deck"><span>B</span><p><b>Arrastra un tema aquí</b><small>o márcalo y aprieta 2</small></p><i class="mini-seek"></i></div>
+              </div>
+              <div class="mini-rows">
+                <div><span>01</span><b>Kideko</b><p>The Message</p></div>
+                <div><span>02</span><b>Paluma</b><p>Rapture</p></div>
+                <div><span>03</span><b>Laurence Guy</b><p>U GO</p></div>
+                <div><span>04</span><b>Joshwa</b><p>Mercy</p></div>
+              </div>
+            </main>
+            <div class="demo-pointer decks-pointer"><span></span></div>
+          </div>
+          <div class="scene-caption"><span>01</span> La página recuerda si los dejaste a la vista.</div>
+        </article>
+
+        <article class="scene guide-scene visual-left" data-chapter="10" data-scene="1" aria-hidden="true">
+          <div class="deck-load-demo" aria-label="Arrastrar un tema al deck A">
+            <div class="mini-decks">
+              <div class="mini-deck drop-ok"><span>A</span><p><b>Arrastra un tema aquí</b><small>o márcalo y aprieta 1</small></p><i class="mini-seek"></i><em>SOLTAR PARA CARGAR EN EL DECK A</em></div>
+              <div class="mini-deck"><span>B</span><p><b>Paluma - Rapture</b><small>Set del sábado</small></p><i class="mini-seek"></i></div>
+            </div>
+            <div class="order-rows deck-rows">
+              <div class="order-source"><i class="grip"></i><span>01</span><p><b>Kideko</b><small>The Message</small></p><em>DESCARGADO</em></div>
+              <div><i class="grip"></i><span>02</span><p><b>Paluma</b><small>Rapture</small></p><em class="deck-letter">B</em></div>
+              <div><i class="grip"></i><span>03</span><p><b>Laurence Guy</b><small>U GO</small></p><em>DESCARGADO</em></div>
+              <span class="order-ghost deck-ghost">Kideko - The Message</span>
+              <div class="demo-pointer deck-drag-pointer"><span></span></div>
+            </div>
+          </div>
+          <div class="guide-copy">
+            <span class="scene-kicker"><i></i> DECKS · CARGAR</span>
+            <h2>Arrástralo<br>a un <em>deck.</em></h2>
+            <p>Toma un tema por su asa y suéltalo sobre A o B. Queda cargado <b>en pausa</b>: le das play cuando quieras entrar.</p>
+            <div class="key-hint"><kbd>1 · 2</kbd><span>O márcalo en la tabla y pulsa <b>1</b> (deck A) o <b>2</b> (deck B).</span></div>
+          </div>
+          <div class="scene-caption"><span>02</span> Un deck que está sonando no acepta otro tema: así no se corta la mezcla.</div>
+        </article>
+
+        <article class="scene guide-scene visual-right" data-chapter="10" data-scene="2" aria-hidden="true">
+          <div class="guide-copy">
+            <span class="scene-kicker"><i></i> DECKS · MEZCLAR</span>
+            <h2>Mezcla<br>a <em>mano.</em></h2>
+            <p>Dale play a los dos y cruza con el <b>volumen</b> de cada deck. El <b>tempo</b> acelera o frena un tema hasta un 8 %, sin cambiarle el tono, para igualar el BPM de oído.</p>
+            <div class="callout"><span>i</span><p><b>Doble clic en el tempo.</b><small>Lo vuelve a 0.</small></p></div>
+          </div>
+          <div class="deck-mix-demo" aria-label="Los dos decks sonando, con volumen y tempo">
+            <div class="mix-deck">
+              <div class="mix-head"><span>A</span><i class="mix-play">❚❚</i><p><b>Kideko - The Message</b><small>Set del sábado</small></p><em>4:48 / 6:05</em></div>
+              <i class="mix-seek late"><b></b></i>
+              <div class="mix-faders"><label>VOLUMEN <i class="fader vol-down"><b></b></i><em>55</em></label><label>TEMPO <i class="fader"><b></b></i><em>±0.0%</em></label></div>
+            </div>
+            <div class="mix-deck">
+              <div class="mix-head"><span>B</span><i class="mix-play">❚❚</i><p><b>Paluma - Rapture</b><small>Set del sábado</small></p><em>0:22 / 5:12</em></div>
+              <i class="mix-seek early"><b></b></i>
+              <div class="mix-faders"><label>VOLUMEN <i class="fader vol-up"><b></b></i><em>100</em></label><label>TEMPO <i class="fader tempo-up"><b></b></i><em>+1.2%</em></label></div>
+            </div>
+          </div>
+          <div class="scene-caption"><span>03</span> Con un solo deck sonando, al terminar sigue el próximo tema de la tabla.</div>
+        </article>
+
+        <article class="scene guide-scene visual-left" data-chapter="10" data-scene="3" aria-hidden="true">
+          <div class="deck-keys-demo" aria-label="Teclas de los decks A y B">
+            <div class="keys-col"><small>DECK A</small>
+              <div><kbd>1</kbd><span>Cargar el tema marcado</span></div>
+              <div><kbd>Z</kbd><span>Play / pausa</span></div>
+              <div><kbd>Q</kbd><kbd>A</kbd><span>Subir / bajar volumen</span></div>
+            </div>
+            <div class="keys-col deck-b"><small>DECK B</small>
+              <div><kbd>2</kbd><span>Cargar el tema marcado</span></div>
+              <div><kbd>M</kbd><span>Play / pausa</span></div>
+              <div><kbd>O</kbd><kbd>L</kbd><span>Subir / bajar volumen</span></div>
+            </div>
+            <div class="keys-shift"><kbd>SHIFT</kbd><span>+ las teclas de volumen: sube o baja el tempo</span></div>
+          </div>
+          <div class="guide-copy">
+            <span class="scene-kicker"><i></i> DECKS · TECLADO</span>
+            <h2>Sin tocar<br>el <em>mouse.</em></h2>
+            <p>Con la página al frente, cada deck tiene sus teclas para cargar, dar play y mover el volumen. Con <b>Shift</b>, las de volumen mueven el tempo.</p>
+            <div class="callout warn"><span>!</span><p><b>¿Un tema no se puede cargar?</b><small>Chrome no reproduce AIFF ni ALAC: escúchalos con Reproducir todo.</small></p></div>
+          </div>
+          <div class="scene-caption"><span>04</span> Las teclas funcionan igual con teclado en español o en inglés.</div>
+        </article>
       </div>
 
       <footer class="lesson-controls">
@@ -619,7 +785,7 @@ Presiona una tecla para cerrar...</pre>
 
   <div id="chapter-toast" class="chapter-toast" role="status" aria-live="polite">
     <span>02</span>
-    <p><b>Nicotine+</b><small>Capítulo 2 de 8</small></p>
+    <p><b>Nicotine+</b><small>Capítulo 2 de 10</small></p>
   </div>
 
   <script src="app.js"></script>

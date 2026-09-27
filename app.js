@@ -10,6 +10,8 @@ const chapters = [
   { id: 6, name: "Descargar" },
   { id: 7, name: "Reproducir" },
   { id: 8, name: "Playlist con OCR" },
+  { id: 9, name: "Ordenar" },
+  { id: 10, name: "Decks" },
 ];
 
 const allScenes = [...document.querySelectorAll(".scene")];
