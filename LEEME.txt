@@ -236,6 +236,8 @@ Cómo está armada la página:
     si hay temas para revisar (amarillo), si está buscando (celeste) o si
     ya está completa (verde).
   - Arriba de esa lista, "+ Nueva playlist": para cargar una nueva.
+  - Justo debajo, "Decks": muestra u oculta dos reproductores, arriba de
+    la playlist, para escuchar y mezclar temas ahí mismo (sección 10).
   - Junto al nombre "GrabList", un botón con un "?": abre esta
     misma guía adentro de la página, organizada por temas, para no tener
     que andar buscando este archivo.
@@ -459,16 +461,99 @@ lo que ya bajaste.
     Vacío = el de siempre.
 
   Junto al nombre de la playlist (al lado de "renombrar") aparece el
-  botón "Reproducir todo": manda de una, en orden, todos los temas
-  "Descargado" y "Ya lo tienes" que sigan en tu disco. La mayoría de
-  los reproductores (VLC, Winamp, foobar2000...) los encolan y los
-  reproducen seguidos, como un set. Necesita el reproductor elegido
+  botón "Reproducir todo": manda de una, en el orden de la tabla, todos
+  los temas "Descargado" y "Ya lo tienes" que sigan en tu disco. La
+  mayoría de los reproductores (VLC, Winamp, foobar2000...) los encolan
+  y los reproducen seguidos, como un set. Necesita el reproductor elegido
   (arriba): sin eso aparece apagado, porque no hay forma de mandarle
   varios archivos de una al programa por defecto del sistema.
 
   El mismo botón (como ícono de "play") también está en la tarjeta de
   la playlist en "Mis playlists", para reproducir sin entrar a la
   playlist.
+
+Cambiar el orden de los temas:
+  En la pestaña "Todos", cada tema tiene a la izquierda del número un
+  asa (seis puntitos). Arrástrala hacia arriba o hacia abajo y suelta el
+  tema donde lo quieras: una línea te marca dónde va a caer. En una
+  playlist larga, si llevas el mouse cerca del borde de abajo (o de
+  arriba), la lista se mueve sola. Escape mientras arrastras lo deja
+  donde estaba.
+
+  Con el teclado: marca el tema con las flechas y usa Alt + flecha
+  abajo / arriba (en Mac, Option) para moverlo un lugar.
+
+  El número de la columna "#" es el lugar del tema en la playlist.
+  "Reproducir todo" los toca en ese orden, y "Buscar pendientes" y el
+  ícono de compartir también lo siguen.
+
+  En las otras pestañas (Revisar, Pendientes...) no se puede mover:
+  como ahí no se ven todos los temas, no quedaría claro dónde cae.
+
+  Para volver al orden en que importaste la playlist: botón "Orden
+  original", a la derecha de las pestañas (aparece solo si cambiaste el
+  orden). Te pide confirmar, porque el orden que armaste se pierde.
+
+Escuchar y mezclar en la página (decks A y B):
+  Arriba a la izquierda, bajo "+ Nueva playlist", está el botón
+  "Decks": muestra u oculta, arriba de la lista (como en Rekordbox), dos
+  reproductores, A y B, para escuchar los temas "Descargado" y "Ya lo
+  tienes" ahí mismo, sin abrir otro programa, y mezclarlos a mano.
+  Ocultarlos no corta lo que está sonando: el punto del botón queda
+  encendido. La página recuerda si los dejaste a la vista.
+
+  Para cargar un tema, arrástralo desde su asa (los seis puntitos, a la
+  izquierda del número) y suéltalo sobre el deck A o el B. Si los decks
+  están ocultos, aparecen solos arriba apenas empiezas a arrastrar
+  (encima de la lista, sin moverla). El deck se pone verde donde puedes
+  soltar; en rojo te dice por qué no. Por ejemplo, un deck que está
+  sonando no acepta otro tema: así un arrastre mal soltado no te corta
+  la mezcla.
+  El tema queda cargado EN PAUSA: le das play en el deck cuando quieras
+  entrar (así puedes entrar justo en el golpe).
+  También con el teclado: marca el tema con las flechas y aprieta 1
+  (deck A) o 2 (deck B).
+  Se puede arrastrar a un deck desde cualquier pestaña (desde
+  "Descargados", por ejemplo); cambiar el orden en la tabla sigue siendo
+  solo en "Todos". Cada tema cargado muestra la letra de su deck al lado
+  del título (encendida mientras suena).
+
+  Cada deck tiene:
+    - play/pausa, tema anterior y siguiente de la playlist, y la "x"
+      para sacar el tema del deck;
+    - una barra de avance: arrástrala para ir a cualquier parte del tema
+      (por ejemplo, al intro o donde quieres entrar);
+    - VOLUMEN: súbelo o bájalo para mezclar a mano entre los dos decks;
+    - TEMPO: acelera o frena el tema hasta un 8%, sin cambiarle el tono,
+      para igualar el BPM de oído. Doble clic en el fader (o clic en el
+      número) lo vuelve a 0.
+
+  Escuchar de corrido: si usas un solo deck, cuando termina un tema sigue
+  el siguiente de la playlist, en el orden que tenga la tabla en ese
+  momento. Puedes cambiar el orden mientras suena y se respeta. Si los
+  dos decks están sonando, no avanza solo: estás mezclando.
+
+  Los decks siguen sonando si pasas a otra playlist o a "Mis playlists",
+  y puedes tener cargados temas de dos playlists distintas. Se cortan si
+  cierras o recargas la página.
+
+  Con el teclado (con la página al frente, no mientras escribes):
+    1 / 2             carga el tema marcado en la tabla en el deck A / B
+    Z                 play / pausa del deck A
+    Q / A             sube / baja el volumen del deck A
+    Shift + Q / A     sube / baja el tempo del deck A
+    M                 play / pausa del deck B
+    O / L             sube / baja el volumen del deck B
+    Shift + O / L     sube / baja el tempo del deck B
+  (Cada deck muestra sus teclas abajo, a la derecha.)
+
+  Ojo:
+    - Tu navegador no reproduce archivos AIFF ni ALAC: esos temas no se
+      pueden cargar en un deck. Para escucharlos usa "Reproducir todo" o
+      ábrelos con tu reproductor.
+    - Todo sale por la misma salida de audio (no hay preescucha por
+      audífonos) y no hay sincronización automática: los golpes se
+      alinean de oído, con el tempo y el momento en que das play.
 
   Cada tema tiene además un botón "Borrar" (junto a los demás botones de
   acciones): saca ese tema de la playlist, nada más. No borra ningún
@@ -485,6 +570,8 @@ Con el teclado (más rápido en playlists largas):
                             están abiertas, baja el candidato marcado
   J / K                     marca el candidato siguiente / anterior
   E                         corrige artista y título del tema marcado
+  Alt + flecha abajo/arr.   mueve el tema marcado un lugar (en Mac:
+                            Option). Solo en la pestaña "Todos"
   Escape                    cierra las opciones
   Ejemplo: pestaña "Revisar" -> Enter -> J hasta el que quieres -> Enter.
   Ese tema se pone a bajar, sale de "Revisar" y queda marcado el
@@ -608,6 +695,16 @@ Los temas que bajas:
       Descargas\Favoritos marzo\Laurence Guy - U GO.mp3
 
   Así, cuando terminas, arrastras la carpeta completa a Rekordbox.
+
+  En esa misma carpeta queda además un archivo con el nombre de la
+  carpeta y terminación .m3u8 (por ejemplo "Set sábado.m3u8"): es la
+  playlist con los temas en el orden que les diste en la página. Doble
+  clic y se abre en tu reproductor en ese orden. GrabList lo mantiene
+  al día solo (cuando cambias el orden, cuando termina de bajar un
+  tema, cuando borras uno): si lo editas a mano, la próxima vez que
+  algo cambie se vuelve a escribir, así que el orden se cambia desde la
+  página. En playlists de antes de esta versión aparece la primera vez
+  que cambias el orden, usas "Reproducir todo" o baja un tema nuevo.
 
   La carpeta toma el nombre que tenía la playlist cuando bajaste el
   primer tema. Si después renombras la playlist, la carpeta NO cambia
